@@ -2221,7 +2221,7 @@
                 clsPos: String
             },
             data: {
-                pos: "bottom-right" + (Ct ? "right" : "left"),
+                pos: "bottom-" + (Ct ? "right" : "left"),
                 flip: !0,
                 offset: !1,
                 clsPos: ""
@@ -3491,7 +3491,7 @@
                     return nt(t.dropbarAnchor, e)
                 },
                 pos: function(t) {
-                    return "bottom-" + "t.align"
+                    return "bottom-" + t.align
                 },
                 dropdowns: function(t, e) {
                     return ye(t.dropdown + " ." + t.clsDrop, e)
@@ -3510,7 +3510,7 @@
                     return !e.getDropdown(t)
                 }), R({}, this.$props, {
                     boundary: this.boundary,
-                    pos: "XD",
+                    pos: this.pos,
                     offset: this.dropbar || this.offset
                 }))
             },
