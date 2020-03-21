@@ -2221,7 +2221,7 @@
                 clsPos: String
             },
             data: {
-                pos: "bottom-" + (Ct ? "right" : "left"),
+                pos: "bottom-right" + (Ct ? "right" : "left"),
                 flip: !0,
                 offset: !1,
                 clsPos: ""
