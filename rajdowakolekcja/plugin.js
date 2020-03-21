@@ -3510,7 +3510,7 @@
                     return !e.getDropdown(t)
                 }), R({}, this.$props, {
                     boundary: this.boundary,
-                    pos: this.pos,
+                    pos: "XD",
                     offset: this.dropbar || this.offset
                 }))
             },
